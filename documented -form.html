@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document form</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+   <form>
+        <div>
+             <!---input name type--->
+            <label for="full_name">Full Name: </label>
+           <input name="full_name" id="full_name" type="text" placeholder="e.g susan tata" required>
+        </div>
+          <br>
+
+        <div>
+            <!---input emailtype--->
+            <label for="email">Email Address: </label>
+           <input type="email" name="email" id="email" placeholder="Enter your email"required >
+        </div>
+           <br>
+
+        <div>
+           <!---inputpassword type--->
+            <label for="password" >Password: </label>
+          <input type="password" nam="pasword" id="password" placeholder="Enter your password" required>
+        </div>
+          <br>
+
+        <div>
+            <!---input gender type--->
+            <label type="gender">Gender</label>
+         <input type="radio" name="gender" value="male">Male
+         <input type="radio" name="gender" value="female">Female
+        <div>
+        <br>
+
+       
+        <div>
+            <!--select element-->
+          <select name="specialisation" id="">
+            <option value="fullstack-engineer">Full stack Engineer</option>
+            <option value="backend-engineer">Backend Engineer</option>
+            <option value="frontend-engineer">Frontend Engineer</option>
+          </select>
+        </div>
+         <br>
+   <fieldset>
+        <legend>Additional Signup Information</legend>
+         <div>
+            <!--date-->
+            <label for="date">Select a date</label>
+            <input type="date" name="date" id="date">
+         </div>
+         <br>
+
+         <div>
+            <!--time-->
+            <label for="time">Select a time</label>
+            <input type="time" name="time" id="time">
+         </div>
+         <br>
+
+         <div>
+            <!--file-->
+            <label for="file">Select a file:</label>
+            <input type="file" name="file" id="file">
+         </div>
+         <br>
+
+         <div>
+            <!--range-->
+            <label for="range">Select the range:</label>
+            <input type="range" name="range" id="range">
+         </div>
+        </fieldset>
+         <br>
+    
+
+        <div>
+         <!---input checkbox type--->   
+          <input type="checkbox" value="yes">I agree with the <a href="#">Terms & Conditions</a> 
+        </div>
+          <br>
+
+        <div>
+           <input type="submit" value="Register">
+        </div>
+           <br>
+
+    </form> 
+</body>
+</html>
